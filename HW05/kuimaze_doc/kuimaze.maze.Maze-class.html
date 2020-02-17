@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>kuimaze.maze.Maze</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="kuimaze-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Kui Maze</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="kuimaze-module.html">Package&nbsp;kuimaze</a> ::
+        <a href="kuimaze.maze-module.html">Module&nbsp;maze</a> ::
+        Class&nbsp;Maze
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="kuimaze.maze.Maze-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Maze</h1><p class="nomargin-top"><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze">source&nbsp;code</a></span></p>
+<p>Maze class takes care of GUI and interaction functions.</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">image</span>,
+        <span class="summary-sig-arg">grad</span>,
+        <span class="summary-sig-arg">node_rewards</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">path_costs</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">trans_probs</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">show_level</span>=<span class="summary-sig-default">SHOW.FULL_MAZE</span>,
+        <span class="summary-sig-arg">start_node</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">goal_nodes</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Parameters node_rewards, path_costs and trans_probs are meant for 
+      defining more complicated mazes.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_state_reward"></a><span class="summary-sig-name">get_state_reward</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">state</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_state_reward">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type"><a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+      state</a></span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#get_start_state" class="summary-sig-name">get_start_state</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a start state</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_start_state">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="close_gui"></a><span class="summary-sig-name">close_gui</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.close_gui">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#set_node_utils" class="summary-sig-name">set_node_utils</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">utils</span>)</span><br />
+      a visualisation method - sets an interal variable for displaying 
+      utilities</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_node_utils">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">boolean</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#is_goal_state" class="summary-sig-name">is_goal_state</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_state</span>)</span><br />
+      Check whether a <code>current_node</code> is goal state or not</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.is_goal_state">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="is_danger_state"></a><span class="summary-sig-name">is_danger_state</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_state</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.is_danger_state">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#get_goal_nodes" class="summary-sig-name">get_goal_nodes</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a list of goal nodes</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_goal_nodes">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of <a href="kuimaze.maze-module.html#weighted_state" 
+      class="link">namedtuple weighted_state</a></span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#get_all_states" class="summary-sig-name">get_all_states</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a list of all the problem states</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_all_states">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tuple</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#get_dimensions" class="summary-sig-name">get_dimensions</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns dimensions of problem</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_dimensions">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type"><a href="kuimaze.maze.ACTION-class.html" class="link">action from 
+      ACTION</a></span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#get_actions" class="summary-sig-name">get_actions</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_state</span>)</span><br />
+      Generate (yield) actions possible for the current_state It does not 
+      check the outcome this is left to the result method</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_actions">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type"><a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+      state</a></span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#result" class="summary-sig-name">result</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_state</span>,
+        <span class="summary-sig-arg">action</span>)</span><br />
+      Apply the action and get the state; deterministic version</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.result">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of tuples</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#get_next_states_and_probs" class="summary-sig-name">get_next_states_and_probs</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">curr</span>,
+        <span class="summary-sig-arg">action</span>)</span><br />
+      For the commanded action it generates all posiible outcomes with 
+      associated probabilities</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_next_states_and_probs">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#set_explored" class="summary-sig-name">set_explored</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">states</span>)</span><br />
+      sets explored states list, preparation for visualisation</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_explored">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_probs"></a><span class="summary-sig-name">set_probs</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">obey</span>,
+        <span class="summary-sig-arg">confusionL</span>,
+        <span class="summary-sig-arg">confusionR</span>,
+        <span class="summary-sig-arg">confusion180</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_probs">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_probs_table"></a><span class="summary-sig-name">set_probs_table</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">obey</span>,
+        <span class="summary-sig-arg">confusionL</span>,
+        <span class="summary-sig-arg">confusionR</span>,
+        <span class="summary-sig-arg">confusion180</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_probs_table">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#set_visited" class="summary-sig-name">set_visited</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">states</span>)</span><br />
+      sets seen states list, preparation for visualisation</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_visited">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="non_det_result"></a><span class="summary-sig-name">non_det_result</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">action</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.non_det_result">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">boolean</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__is_inside" class="summary-sig-name" onclick="show_private();">__is_inside</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_state</span>)</span><br />
+      Check whether a state is inside a problem</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__is_inside">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">boolean</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__is_inside_valid" class="summary-sig-name" onclick="show_private();">__is_inside_valid</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_state</span>)</span><br />
+      Check whether a state is inside a problem and is not a wall</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__is_inside_valid">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="clear_player_data"></a><span class="summary-sig-name">clear_player_data</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Clear player data for using with different player or running another 
+      find_path</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.clear_player_data">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__clear_player_data"></a><span class="summary-sig-name">__clear_player_data</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Clear player data for using with different player or running another 
+      find_path</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__clear_player_data">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#set_player" class="summary-sig-name">set_player</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">player</span>)</span><br />
+      Set player associated with this problem.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_player">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#show_and_break" class="summary-sig-name">show_and_break</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">drawed_nodes</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Main GUI function - call this from <code 
+      class="link"><code>BaseAgent.find_path()</code></code> to update GUI 
+      and break at this point to be able to step your actions.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.show_and_break">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#show_path" class="summary-sig-name">show_path</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">full_path</span>)</span><br />
+      Show resulting path_section given as a list of consecutive <a 
+      href="kuimaze.maze-module.html#path_section" class="link">namedtuples
+      path_section</a> to show in GUI.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.show_path">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#set_show_level" class="summary-sig-name">set_show_level</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">show_level</span>)</span><br />
+      Set new show level.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_show_level">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#set_eps_folder" class="summary-sig-name">set_eps_folder</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Set folder where the EPS files will be saved.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_eps_folder">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__setup_gui" class="summary-sig-name" onclick="show_private();">__setup_gui</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Setup and draw basic GUI.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__setup_gui">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__destroy_gui" class="summary-sig-name" onclick="show_private();">__destroy_gui</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">unblock</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Safely destroy GUI.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__destroy_gui">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__renew_gui"></a><span class="summary-sig-name">__renew_gui</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Renew GUI if a new player connects to a problem object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__renew_gui">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__set_show_level_cb"></a><span class="summary-sig-name">__set_show_level_cb</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Just a simple callback for tkinter radiobuttons for selecting show 
+      level</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__set_show_level_cb">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__clear_lines"></a><span class="summary-sig-name">__clear_lines</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Clear path_section lines if running same player twice.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__clear_lines">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__set_cell_color" class="summary-sig-name" onclick="show_private();">__set_cell_color</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_node</span>,
+        <span class="summary-sig-arg">color</span>)</span><br />
+      Set collor at position given by current position.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__set_cell_color">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="save_as_eps"></a><span class="summary-sig-name">save_as_eps</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">disabled</span>)</span><br />
+      Save canvas as color EPS - response for third button.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.save_as_eps">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__get_cell_center_coords" class="summary-sig-name" onclick="show_private();">__get_cell_center_coords</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      Mapping from problem coordinates to GUI coordinates.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__get_cell_center_coords">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__get_cell_center" class="summary-sig-name" onclick="show_private();">__get_cell_center</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">x</span>)</span><br />
+      Mapping from problem coordinate to GUI coordinate, only one coord.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__get_cell_center">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__gui_update_map" class="summary-sig-name" onclick="show_private();">__gui_update_map</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">explored_only</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Updating cell colors depending on what has been already explored.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__gui_update_map">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#visualise" class="summary-sig-name">visualise</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">dictionary</span>)</span><br />
+      Update state rewards in GUI.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.visualise">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__draw_text" class="summary-sig-name" onclick="show_private();">__draw_text</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_node</span>,
+        <span class="summary-sig-arg">string</span>)</span><br />
+      Draw text in the center of cells in the same manner as draw colors is
+      done.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__draw_text">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__text_to_top"></a><span class="summary-sig-name">__text_to_top</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Move text fields to the top layer of the canvas - to cover arrow 
+      :return:</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__text_to_top">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__draw_text_four" class="summary-sig-name" onclick="show_private();">__draw_text_four</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">current_node</span>,
+        <span class="summary-sig-arg">my_list</span>)</span><br />
+      Draw four text cells into one square</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__draw_text_four">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="kuimaze.maze.Maze-class.html#__color_string_depth" class="summary-sig-name" onclick="show_private();">__color_string_depth</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">color</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>)</span><br />
+      Method adjust color due to depth of square in maze :param color: 
+      color string in hexadecimal ...</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__color_string_depth">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__set_grad_data"></a><span class="summary-sig-name">__set_grad_data</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Sets data needed for rendering 3D ilusion :return: None</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__set_grad_data">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__deltas"></a><span class="summary-name">__deltas</span> = <code title="[[0,-1], [1, 0], [0, 1], [-1, 0]]">[[0,-1], [1, 0], [0, 1], [-1, 0]]</code>
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__ACTIONS"></a><span class="summary-name">__ACTIONS</span> = <code title="[ACTION.UP, ACTION.RIGHT, ACTION.DOWN, ACTION.LEFT]">[ACTION.UP, ACTION.RIGHT, ACTION.DOWN, ACTION.LEFT]</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">image</span>,
+        <span class="sig-arg">grad</span>,
+        <span class="sig-arg">node_rewards</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">path_costs</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">trans_probs</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">show_level</span>=<span class="sig-default">SHOW.FULL_MAZE</span>,
+        <span class="sig-arg">start_node</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">goal_nodes</span>=<span class="sig-default">None</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parameters node_rewards, path_costs and trans_probs are meant for 
+  defining more complicated mazes. Parameter start_node redefines start 
+  state completely, parameter goal_nodes will add nodes to a list of goal 
+  nodes.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>image</code></strong> (string) - path_section to an image file describing problem. Expects to find
+          RGB image in given path_section
+          <p>white color - empty space</p>
+          <p>black color - wall space</p>
+          <p>red color - goal state</p>
+          <p>blue color - start state</p></li>
+        <li><strong class="pname"><code>node_rewards</code></strong> (either string pointing to stored numpy.ndarray or numpy.ndarray 
+          itself or None for default value. Shape of numpy.ndarray must be 
+          (x, y) where (x, y) is shape of problem.) - optional setting of state rewards. If not set, or incorrect 
+          input, it will be set to default value - all nodes have reward of
+          zero.</li>
+        <li><strong class="pname"><code>path_costs</code></strong> (either string pointing to stored numpy.ndarray or numpy.ndarray 
+          itself or None for default value. Shape of numpy.ndarray must be 
+          (x, y, 2) where (x, y) is shape of problem.) - optional setting of path_section costs. If not set, or incorrect 
+          input, it will be set to default value - all paths have cost of 
+          one.</li>
+        <li><strong class="pname"><code>trans_probs</code></strong> (either string pointing to stored numpy.ndarray or numpy.ndarray 
+          itself or None for default value. Shape of numpy.ndarray must be 
+          (x, y, 4, 4) where (x, y) is shape of problem.) - optional setting of transition probabilities for modelling MDP. 
+          If not set, or incorrect input, it will be set to default value -
+          actions have probability of 1 for itself and 0 for any other.</li>
+        <li><strong class="pname"><code>show_level</code></strong> (<a href="kuimaze-module.html#SHOW" class="link">kuimaze.SHOW</a>) - Controlling level of displaying in GUI.</li>
+        <li><strong class="pname"><code>start_node</code></strong> (<a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+          state</a> or None for default start state loaded from image.) - Redefining start state. Must be a valid state inside a problem 
+          without a wall.</li>
+        <li><strong class="pname"><code>goal_nodes</code></strong> (iterable of <a href="kuimaze.maze-module.html#state" 
+          class="link">namedtuples state</a> or None for default set of 
+          goal nodes loaded from image.) - Appending to a list of goal nodes. Must be valid nodes inside a 
+          problem without a wall.</li>
+    </ul></dd>
+    <dt>Raises:</dt>
+    <dd><ul class="nomargin-top">
+        <li><code><strong class='fraise'>AssertionError</strong></code> - When image is not RGB image or if show is not of type <a 
+        href="kuimaze-module.html#SHOW" class="link">kuimaze.SHOW</a> or if
+        initialization didn't finish correctly.</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_start_state"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_start_state</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_start_state">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a start state</p>
+  <dl class="fields">
+    <dt>Returns: <a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+      state</a></dt>
+        <dd>start state</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_node_utils"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_node_utils</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">utils</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_node_utils">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>a visualisation method - sets an interal variable for displaying 
+  utilities</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>utils</code></strong> - dictionary of utilities, indexed by tuple - state coordinates</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>None</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_goal_state"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_goal_state</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_state</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.is_goal_state">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Check whether a <code>current_node</code> is goal state or not</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_state</code></strong> (<a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+          state</a>) - state to check.</li>
+    </ul></dd>
+    <dt>Returns: boolean</dt>
+        <dd>True if state is a goal state, False otherwise</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_goal_nodes"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_goal_nodes</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_goal_nodes">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of goal nodes</p>
+  <dl class="fields">
+    <dt>Returns: list</dt>
+        <dd>list of goal nodes</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_all_states"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_all_states</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_all_states">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of all the problem states</p>
+  <dl class="fields">
+    <dt>Returns: list of <a href="kuimaze.maze-module.html#weighted_state" 
+      class="link">namedtuple weighted_state</a></dt>
+        <dd>list of all states</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_dimensions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_dimensions</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_dimensions">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns dimensions of problem</p>
+  <dl class="fields">
+    <dt>Returns: tuple</dt>
+        <dd>x and y dimensions of problem. Note that state indices are 
+          zero-based so if returned dimensions are (5, 5), state (5, 5) is 
+          <b>not</b> inside problem.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_actions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_actions</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_state</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_actions">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generate (yield) actions possible for the current_state It does not 
+  check the outcome this is left to the result method</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_state</code></strong></li>
+    </ul></dd>
+    <dt>Returns: <a href="kuimaze.maze.ACTION-class.html" class="link">action from 
+      ACTION</a></dt>
+        <dd>action (relevant for the problem - problem in this case)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="result"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">result</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_state</span>,
+        <span class="sig-arg">action</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.result">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Apply the action and get the state; deterministic version</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_state</code></strong> - state <a href="kuimaze.maze-module.html#state" 
+          class="link">namedtuple state</a></li>
+        <li><strong class="pname"><code>action</code></strong> - <a href="kuimaze.maze.ACTION-class.html" class="link">action from
+          ACTION</a></li>
+    </ul></dd>
+    <dt>Returns: <a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+      state</a></dt>
+        <dd>state (result of the action applied at the current_state)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_next_states_and_probs"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_next_states_and_probs</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">curr</span>,
+        <span class="sig-arg">action</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.get_next_states_and_probs">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>For the commanded action it generates all posiible outcomes with 
+  associated probabilities</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>state</code></strong> - state <a href="kuimaze.maze-module.html#state" 
+          class="link">namedtuple state</a></li>
+        <li><strong class="pname"><code>action</code></strong> - <a href="kuimaze.maze.ACTION-class.html" class="link">action from
+          ACTION</a></li>
+    </ul></dd>
+    <dt>Returns: list of tuples</dt>
+        <dd>list of tuples (next_state, 
+          probability_of_ending_in_the_next_state)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_explored"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_explored</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">states</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_explored">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>sets explored states list, preparation for visualisation</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>states</code></strong> - iterable of <a href="kuimaze.maze-module.html#state" 
+          class="link">state</a></li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_visited"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_visited</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">states</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_visited">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>sets seen states list, preparation for visualisation</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>states</code></strong> - iterable of <a href="kuimaze.maze-module.html#state" 
+          class="link">state</a></li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__is_inside"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__is_inside</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_state</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__is_inside">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Check whether a state is inside a problem</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_state</code></strong> (<a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+          state</a>) - state to check</li>
+    </ul></dd>
+    <dt>Returns: boolean</dt>
+        <dd>True if state is inside problem, False otherwise</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__is_inside_valid"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__is_inside_valid</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_state</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__is_inside_valid">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Check whether a state is inside a problem and is not a wall</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_state</code></strong> (<a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+          state</a>) - state to check</li>
+    </ul></dd>
+    <dt>Returns: boolean</dt>
+        <dd>True if state is inside problem and is not a wall, False 
+          otherwise</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_player"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_player</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">player</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_player">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set player associated with this problem.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>player</code></strong> (<a href="kuimaze-module.html#BaseAgent" 
+          class="link">BaseAgent</a> or its descendant) - player to be used for association</li>
+    </ul></dd>
+    <dt>Raises:</dt>
+    <dd><ul class="nomargin-top">
+        <li><code><strong class='fraise'>AssertionError</strong></code> - if player is not instance of <a 
+        href="kuimaze-module.html#BaseAgent" class="link">BaseAgent</a> or 
+        its descendant</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="show_and_break"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">show_and_break</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">drawed_nodes</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.show_and_break">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Main GUI function - call this from <code 
+  class="link"><code>BaseAgent.find_path()</code></code> to update GUI and 
+  break at this point to be able to step your actions. Example of its usage
+  can be found at <code 
+  class="link"><code>BaseAgent.find_path()</code></code></p>
+  <p>Don't use it too often as it is quite expensive and rendering after 
+  single exploration might be slowing your code down a lot.</p>
+  <p>You can optionally set parameter <code>drawed_nodes</code> to a list 
+  of lists of dimensions corresponding to dimensions of problem and if 
+  show_level is higher or equal to <code 
+  class="link">SHOW.NODE_REWARDS</code>, it will plot those in state 
+  centers instead of state rewards. If this parameter is left unset, no 
+  redrawing of texts in center of nodes is issued, however, it can be set 
+  to True which will draw node_rewards saved in the problem.</p>
+  <p>If show_level is <a href="kuimaze.maze.SHOW-class.html#NONE" 
+  class="link">SHOW.NONE</a>, thisets function has no effect</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>drawed_nodes</code></strong> (list of lists of the same dimensions as problem or boolean or 
+          None) - custom objects convertible to string to draw to center of nodes 
+          or True or None</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="show_path"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">show_path</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">full_path</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.show_path">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Show resulting path_section given as a list of consecutive <a 
+  href="kuimaze.maze-module.html#path_section" class="link">namedtuples 
+  path_section</a> to show in GUI. Example of such usage can be found in 
+  <code class="link"><code>BaseAgent.find_path()</code></code></p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>full_path</code></strong> (list of consecutive <a 
+          href="kuimaze.maze-module.html#path_section" 
+          class="link">namedtuples path_section</a>) - path_section in a form of list of consecutive <a 
+          href="kuimaze.maze-module.html#path_section" 
+          class="link">namedtuples path_section</a></li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_show_level"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_show_level</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">show_level</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_show_level">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set new show level. It will redraw whole GUI, so it takes a while.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>show_level</code></strong> (<a href="kuimaze.maze.SHOW-class.html" class="link">SHOW</a>) - new show_level to set</li>
+    </ul></dd>
+    <dt>Raises:</dt>
+    <dd><ul class="nomargin-top">
+        <li><code><strong class='fraise'>AssertionError</strong></code> - if show_level is not an instance of <a 
+        href="kuimaze.maze.SHOW-class.html" class="link">SHOW</a></li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_eps_folder"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_eps_folder</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.set_eps_folder">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set folder where the EPS files will be saved.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>folder</code></strong> (string with a valid path_section) - folder to save EPS files</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__setup_gui"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__setup_gui</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__setup_gui">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Setup and draw basic GUI. Imports tkinter.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="__destroy_gui"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__destroy_gui</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">unblock</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__destroy_gui">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Safely destroy GUI. It is possible to pass an argument whether to 
+  unblock <code class="link">find_path()</code> method, by default it is 
+  unblocking.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>unblock</code></strong> (boolean) - Whether to unblock <code class="link">find_path()</code> method 
+          by calling this method</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__set_cell_color"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__set_cell_color</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_node</span>,
+        <span class="sig-arg">color</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__set_cell_color">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set collor at position given by current position. Code inspired by old
+  implementation of RPH Maze (predecessor of kuimaze)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_node</code></strong> (<a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+          state</a>) - state at which to set a color</li>
+        <li><strong class="pname"><code>color</code></strong> (string) - color string recognized by tkinter (see <a 
+          href="http://wiki.tcl.tk/37701" 
+          target="_top">http://wiki.tcl.tk/37701</a>)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__get_cell_center_coords"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__get_cell_center_coords</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__get_cell_center_coords">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Mapping from problem coordinates to GUI coordinates.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>x</code></strong> - x coord in problem</li>
+        <li><strong class="pname"><code>y</code></strong> - y coord in problem</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>(x, y) coordinates in GUI (centers of cells)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__get_cell_center"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__get_cell_center</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">x</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__get_cell_center">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Mapping from problem coordinate to GUI coordinate, only one coord.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>x</code></strong> - coord in problem (could be either x or y)</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>center of cell corresponding to such coordinate in GUI</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__gui_update_map"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__gui_update_map</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">explored_only</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__gui_update_map">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Updating cell colors depending on what has been already explored.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>explored_only</code></strong> (boolean) - if True, update only explored position and leave unexplored 
+          black. if False, draw everything</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="visualise"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">visualise</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">dictionary</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.visualise">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Update state rewards in GUI. If drawed_nodes is passed and is not 
+  None, it is expected to be list of lists of objects with string 
+  representation of same dimensions as the problem. Might fail on 
+  IndexError if passed list is smaller. if one of these objects in list is 
+  None, then no text is printed.</p>
+  <p>If drawed_nodes is None, then node_rewards saved in Maze objects are 
+  printed instead</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>drawed_nodes</code></strong> (list of lists of appropriate dimensions or None) - list of lists of objects to be printed in GUI instead of state 
+          rewards</li>
+    </ul></dd>
+    <dt>Raises:</dt>
+    <dd><ul class="nomargin-top">
+        <li><code><strong class='fraise'>IndexError</strong></code> - if drawed_nodes parameter doesn't match dimensions of problem</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__draw_text"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__draw_text</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_node</span>,
+        <span class="sig-arg">string</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__draw_text">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Draw text in the center of cells in the same manner as draw colors is 
+  done.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_node</code></strong> (<a href="kuimaze.maze-module.html#state" class="link">namedtuple 
+          state</a>) - position on which the text is to be printed in Maze coordinates</li>
+        <li><strong class="pname"><code>string</code></strong> (string) - string to be drawn</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__draw_text_four"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__draw_text_four</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">current_node</span>,
+        <span class="sig-arg">my_list</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__draw_text_four">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Draw four text cells into one square</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>current_node</code></strong> - position on which the text is to be printed in Maze coordinates</li>
+        <li><strong class="pname"><code>my_list</code></strong> (list of floats or ints) - list to be drawn</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__color_string_depth"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__color_string_depth</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">color</span>,
+        <span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="kuimaze.maze-pysrc.html#Maze.__color_string_depth">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Method adjust color due to depth of square in maze :param color: color
+  string in hexadecimal ... for example &quot;#FFF000000&quot; for red 
+  :param x: index of square :param y: index of square :return: new color 
+  string</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="kuimaze-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Kui Maze</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Tue Apr 17 11:04:25 2018
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

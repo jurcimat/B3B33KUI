@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>kuimaze</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Kui Maze</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Package&nbsp;kuimaze
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="kuimaze-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="kuimaze-module.html">Package kuimaze</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-comment">#!/usr/bin/env python3</tt> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"><tt class="py-comment"># -*- coding: utf-8 -*-</tt> </tt>
+<a name="L3"></a><tt class="py-lineno"> 3</tt>  <tt class="py-line"> </tt>
+<a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-0" class="py-name" targets="Module kuimaze.searchagent=kuimaze.searchagent-module.html"><a title="kuimaze.searchagent" class="py-name" href="#" onclick="return doclink('link-0', 'searchagent', 'link-0');">searchagent</a></tt> <tt class="py-keyword">import</tt> <tt id="link-1" class="py-name" targets="Class kuimaze.searchagent.SearchAgent=kuimaze.searchagent.SearchAgent-class.html"><a title="kuimaze.searchagent.SearchAgent" class="py-name" href="#" onclick="return doclink('link-1', 'SearchAgent', 'link-1');">SearchAgent</a></tt> </tt>
+<a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-2" class="py-name" targets="Module kuimaze.baseagent=kuimaze.baseagent-module.html"><a title="kuimaze.baseagent" class="py-name" href="#" onclick="return doclink('link-2', 'baseagent', 'link-2');">baseagent</a></tt> <tt class="py-keyword">import</tt> <tt id="link-3" class="py-name" targets="Class kuimaze.baseagent.BaseAgent=kuimaze.baseagent.BaseAgent-class.html"><a title="kuimaze.baseagent.BaseAgent" class="py-name" href="#" onclick="return doclink('link-3', 'BaseAgent', 'link-3');">BaseAgent</a></tt> </tt>
+<a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-4" class="py-name" targets="Function kuimaze.map_generator.maze()=kuimaze.map_generator-module.html#maze,Module kuimaze.maze=kuimaze.maze-module.html"><a title="kuimaze.map_generator.maze
+kuimaze.maze" class="py-name" href="#" onclick="return doclink('link-4', 'maze', 'link-4');">maze</a></tt> <tt class="py-keyword">import</tt> <tt id="link-5" class="py-name" targets="Class kuimaze.maze.ACTION=kuimaze.maze.ACTION-class.html"><a title="kuimaze.maze.ACTION" class="py-name" href="#" onclick="return doclink('link-5', 'ACTION', 'link-5');">ACTION</a></tt> <tt class="py-keyword">as</tt> <tt id="link-6" class="py-name"><a title="kuimaze.maze.ACTION" class="py-name" href="#" onclick="return doclink('link-6', 'ACTION', 'link-5');">ACTION</a></tt> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-7" class="py-name"><a title="kuimaze.map_generator.maze
+kuimaze.maze" class="py-name" href="#" onclick="return doclink('link-7', 'maze', 'link-4');">maze</a></tt> <tt class="py-keyword">import</tt> <tt id="link-8" class="py-name" targets="Class kuimaze.maze.SHOW=kuimaze.maze.SHOW-class.html"><a title="kuimaze.maze.SHOW" class="py-name" href="#" onclick="return doclink('link-8', 'SHOW', 'link-8');">SHOW</a></tt> <tt class="py-keyword">as</tt> <tt id="link-9" class="py-name"><a title="kuimaze.maze.SHOW" class="py-name" href="#" onclick="return doclink('link-9', 'SHOW', 'link-8');">SHOW</a></tt> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-10" class="py-name"><a title="kuimaze.map_generator.maze
+kuimaze.maze" class="py-name" href="#" onclick="return doclink('link-10', 'maze', 'link-4');">maze</a></tt> <tt class="py-keyword">import</tt> <tt id="link-11" class="py-name" targets="Class kuimaze.maze.Maze=kuimaze.maze.Maze-class.html"><a title="kuimaze.maze.Maze" class="py-name" href="#" onclick="return doclink('link-11', 'Maze', 'link-11');">Maze</a></tt> <tt class="py-keyword">as</tt> <tt id="link-12" class="py-name"><a title="kuimaze.maze.Maze" class="py-name" href="#" onclick="return doclink('link-12', 'Maze', 'link-11');">Maze</a></tt> </tt>
+<a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"><tt class="py-comment"># from .maze import ActionProbsTable</tt> </tt>
+<a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-13" class="py-name"><a title="kuimaze.map_generator.maze
+kuimaze.maze" class="py-name" href="#" onclick="return doclink('link-13', 'maze', 'link-4');">maze</a></tt> <tt class="py-keyword">import</tt> <tt id="link-14" class="py-name" targets="Class kuimaze.maze.ProbsRoulette=kuimaze.maze.ProbsRoulette-class.html"><a title="kuimaze.maze.ProbsRoulette" class="py-name" href="#" onclick="return doclink('link-14', 'ProbsRoulette', 'link-14');">ProbsRoulette</a></tt> <tt class="py-keyword">as</tt> <tt id="link-15" class="py-name"><a title="kuimaze.maze.ProbsRoulette" class="py-name" href="#" onclick="return doclink('link-15', 'ProbsRoulette', 'link-14');">ProbsRoulette</a></tt> </tt>
+<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-16" class="py-name" targets="Module kuimaze.gym_wrapper=kuimaze.gym_wrapper-module.html"><a title="kuimaze.gym_wrapper" class="py-name" href="#" onclick="return doclink('link-16', 'gym_wrapper', 'link-16');">gym_wrapper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-17" class="py-name" targets="Class kuimaze.gym_wrapper.InfEasyMaze=kuimaze.gym_wrapper.InfEasyMaze-class.html"><a title="kuimaze.gym_wrapper.InfEasyMaze" class="py-name" href="#" onclick="return doclink('link-17', 'InfEasyMaze', 'link-17');">InfEasyMaze</a></tt> </tt>
+<a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-18" class="py-name"><a title="kuimaze.gym_wrapper" class="py-name" href="#" onclick="return doclink('link-18', 'gym_wrapper', 'link-16');">gym_wrapper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-19" class="py-name" targets="Class kuimaze.gym_wrapper.EasyMaze=kuimaze.gym_wrapper.EasyMaze-class.html"><a title="kuimaze.gym_wrapper.EasyMaze" class="py-name" href="#" onclick="return doclink('link-19', 'EasyMaze', 'link-19');">EasyMaze</a></tt> </tt>
+<a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-20" class="py-name"><a title="kuimaze.gym_wrapper" class="py-name" href="#" onclick="return doclink('link-20', 'gym_wrapper', 'link-16');">gym_wrapper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-21" class="py-name" targets="Class kuimaze.gym_wrapper.MDPMaze=kuimaze.gym_wrapper.MDPMaze-class.html"><a title="kuimaze.gym_wrapper.MDPMaze" class="py-name" href="#" onclick="return doclink('link-21', 'MDPMaze', 'link-21');">MDPMaze</a></tt> </tt>
+<a name="L14"></a><tt class="py-lineno">14</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-22" class="py-name"><a title="kuimaze.gym_wrapper" class="py-name" href="#" onclick="return doclink('link-22', 'gym_wrapper', 'link-16');">gym_wrapper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-23" class="py-name" targets="Class kuimaze.gym_wrapper.HardMaze=kuimaze.gym_wrapper.HardMaze-class.html"><a title="kuimaze.gym_wrapper.HardMaze" class="py-name" href="#" onclick="return doclink('link-23', 'HardMaze', 'link-23');">HardMaze</a></tt> </tt>
+<a name="L15"></a><tt class="py-lineno">15</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-24" class="py-name"><a title="kuimaze.gym_wrapper" class="py-name" href="#" onclick="return doclink('link-24', 'gym_wrapper', 'link-16');">gym_wrapper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-25" class="py-name" targets="Class kuimaze.gym_wrapper.InfHardMaze=kuimaze.gym_wrapper.InfHardMaze-class.html"><a title="kuimaze.gym_wrapper.InfHardMaze" class="py-name" href="#" onclick="return doclink('link-25', 'InfHardMaze', 'link-25');">InfHardMaze</a></tt> </tt>
+<a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-op">.</tt><tt id="link-26" class="py-name"><a title="kuimaze.gym_wrapper" class="py-name" href="#" onclick="return doclink('link-26', 'gym_wrapper', 'link-16');">gym_wrapper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-27" class="py-name" targets="Class kuimaze.gym_wrapper.EasyMazeEnv=kuimaze.gym_wrapper.EasyMazeEnv-class.html"><a title="kuimaze.gym_wrapper.EasyMazeEnv" class="py-name" href="#" onclick="return doclink('link-27', 'EasyMazeEnv', 'link-27');">EasyMazeEnv</a></tt> </tt>
+<a name="L17"></a><tt class="py-lineno">17</tt>  <tt class="py-line"> </tt>
+<a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line"><tt class="py-name">__all__</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-string">'Maze'</tt><tt class="py-op">,</tt> <tt class="py-string">'SHOW'</tt><tt class="py-op">,</tt> <tt class="py-string">'ACTION'</tt><tt class="py-op">,</tt> <tt class="py-string">'SearchAgent'</tt><tt class="py-op">,</tt><tt class="py-string">'BaseAgent'</tt><tt class="py-op">,</tt> <tt class="py-string">'ProbsRoulet'</tt><tt class="py-op">]</tt> </tt>
+<a name="L19"></a><tt class="py-lineno">19</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Kui Maze</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Tue Apr 17 11:04:25 2018
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
